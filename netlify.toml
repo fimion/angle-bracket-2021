@@ -2,6 +2,6 @@
   publish="public"
 
 [[headers]]
-  for = "/"
+  for = "/*"
   [headers.values]
-    Link = '</styles.css>; rel=\"stylesheet\"'
+    Link = '</styles.css>; rel="stylesheet"'
