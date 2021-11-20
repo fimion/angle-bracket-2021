@@ -1,0 +1,28 @@
+{
+  "name": "angle-bracket-2021",
+  "version": "1.0.0",
+  "description": "WHY ALEX",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev":"netlify dev"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fimion/angle-bracket-2021.git"
+  },
+  "keywords": [
+    "NO",
+    "WHY",
+    "STOP"
+  ],
+  "author": "Alex Riviere",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/fimion/angle-bracket-2021/issues"
+  },
+  "homepage": "https://github.com/fimion/angle-bracket-2021#readme",
+  "devDependencies": {
+    "netlify-cli": "^7.0.2"
+  }
+}
