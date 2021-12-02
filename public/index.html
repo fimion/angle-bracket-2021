@@ -1,4 +1,32 @@
-<div role="heading" aria-level="1">My Awful Page</div>
+<div class="container" style="font-family: 'Comic Sans', cursive; font-size: 1.5rem;">
+<div class="header" role="heading"
+aria-level="1"
+style="font-size: 3rem;  text-align: center;grid-area:header;">
+Alex's Angle Bracket 2021 Site
+</div>
+<div class="navigation" style="border: 3px darkblue dashed; padding: 10px; position: sticky; top:10px; background-color: white;grid-area:nav;">
+    <div role="list" style="display: flex; flex-flow: var(--nav-direction, row) nowrap; justify-content:space-evenly;">
+        <div role="listitem"><a href="#wtf">WAT</a></div>
+        <div role="listitem"><a href="#why">Why??</a></div>
+        <div role="listitem"><a href="#stop">Please Stop.</a></div>
+    </div>
+</div>
+<div class="content" role="main" style="scroll-margin:2.6rem; grid-area: content;">
+    <div role="section" style="min-height: 100vh; padding-top: calc(2.5rem + 6px);" id="wtf">
+        <div role="heading" aria-level="2" style="font-size:2.5rem;">WAT</div>
+        <div>This site is because of laurie voss' Angle Bracket playoffs!</div>
+    </div>
+    <div role="section" style="min-height: 100vh; padding-top: calc(2.5rem + 6px);" id="why">
+        <div role="heading" aria-level="2"  style="font-size:2.5rem;">Why??</div>
+        <div>Because I said I would.</div>
+    </div>
+    <div role="section" style="min-height: 100vh; padding-top: calc(2.5rem + 6px);" id="stop">
+        <div role="heading" aria-level="2" style="font-size:2.5rem;">Please Stop.</div>
+        <div>No.</div>
+    </div>
+</div>
+<div class="footer" style="grid-area: footer;"><marquee>&copy; Alex Riviere 2021</marquee></div>
+</div>
 <script type="module">
     import sheet from './styles.css' assert {type:'css'};
     document.adoptedStyleSheets = [sheet];
